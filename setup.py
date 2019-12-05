@@ -12,11 +12,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'requirements_parser==0.1.0',
+        'requirements_parser==0.2.0',
         'packageurl_python==0.8.7',
-        'xmlschema==1.0.14',
+        'xmlschema==1.0.16',
         'requests==2.22.0',
-        'packaging==19.1',
+        'packaging==19.2',
     ],
     entry_points={
         'console_scripts': [
