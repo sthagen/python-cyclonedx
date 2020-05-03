@@ -14,9 +14,23 @@
 #
 # Copyright (c) Steve Springett. All Rights Reserved.
 
-import xmlschema
+import os.path
+import pytest
+from cyclonedx.client import build_parser, generate_bom
 
-bom_schema = xmlschema.XMLSchema("http://cyclonedx.org/schema/bom/1.0")
 
-def is_valid(bom):
-    return bom_schema.is_valid(bom)
+script_path = os.path.dirname(__file__)
+
+
+def test_bom_generation():
+    # arrange
+    with open(os.path.join(script_path, 'resources', 'bom.xml'), 'r') as bf:
+        expected_xml = bf.read()
+    parser = build_parser()
+    args = parser.parse_args(['-i', os.path.join(script_path, 'resources', 'requirements.txt')])
+    
+    # act
+    actual_xml = generate_bom(args)
+    
+    # assert
+    assert actual_xml == expected_xml
