@@ -1,8 +1,9 @@
-packageurl_python==0.8.7
-requests==2.22.0
-xmlschema==1.0.16
-setuptools==18.5
+packageurl_python==0.9.3
+requests==2.25.0
+xmlschema==1.2.5
+setuptools==50.3.2
 requirements_parser==0.2.0
-packaging==19.2
+packaging==20.7
 chardet==3.0.4
-pytest==4.6.9
+pytest==6.1.2
+jsonschema==3.2.0

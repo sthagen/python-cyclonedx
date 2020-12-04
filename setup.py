@@ -16,10 +16,11 @@ setup(
     zip_safe=False,
     install_requires=[
         'requirements_parser==0.2.0',
-        'packageurl_python==0.8.7',
-        'xmlschema==1.0.16',
-        'requests==2.22.0',
-        'packaging==19.2',
+        'packageurl_python==0.9.3',
+        'xmlschema==1.2.5',
+        'requests==2.25.0',
+        'packaging==20.7',
+        'jsonschema==3.2.0',
     ],
     entry_points={
         'console_scripts': [

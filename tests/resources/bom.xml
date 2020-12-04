@@ -276,23 +276,6 @@
             <modified>false</modified>
         </component>
         <component type="library">
-            <publisher>Marc Gibbons</publisher>
-            <name>django-rest-swagger</name>
-            <version>2.1.2</version>
-            <description>Swagger UI for Django REST Framework 3.5+</description>
-            <hashes>
-                <hash alg="MD5">3d1160115490f3d0a29482ef65e36054</hash>
-                <hash alg="SHA-256">3471e6c21a3e97751fa6f7b81b66e916e40fa645cac36be1594c0efed810d247</hash>
-            </hashes>
-            <licenses>
-                <license>
-                    <name>FreeBSD License</name>
-                </license>
-            </licenses>
-            <purl>pkg:pypi/django-rest-swagger@2.1.2</purl>
-            <modified>false</modified>
-        </component>
-        <component type="library">
             <publisher>Tom Christie</publisher>
             <name>djangorestframework</name>
             <version>3.7.7</version>
@@ -693,6 +676,18 @@
                 <hash alg="SHA-256">a94fa6d8f4692b5c824790f279315a3a3d1c8db75ad6064dde83ddc4cf74bc88</hash>
             </hashes>
             <purl>pkg:pypi/royalnet@5.0a8</purl>
+            <modified>false</modified>
+        </component>
+        <component type="library">
+            <publisher>OpenStack</publisher>
+            <name>pbr</name>
+            <version>1.10.0</version>
+            <description>Python Build Reasonableness</description>
+            <hashes>
+                <hash alg="MD5">7941615147c725d1800ee86f91d5df3e</hash>
+                <hash alg="SHA-256">f5cf7265a80636ecff66806d13494cbf9d77a3758a65fd8b4d4d4bee81b0c375</hash>
+            </hashes>
+            <purl>pkg:pypi/pbr@1.10.0</purl>
             <modified>false</modified>
         </component>
     </components>
